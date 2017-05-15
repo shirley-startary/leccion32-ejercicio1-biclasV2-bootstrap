@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="assets/css/main.css"> -->
+    <title> biclas con bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div >
+          <img src="assets/img/rin.png" alt="">
+          <h1>La Bicicleta</h1>
+        </div>
+        <nav >
+          <ul class="nav nav-pills">
+            <li role="presentation"><a href="#">Inicio</a></li>
+            <li role="presentation"><a href="#">Biclas</a></li>
+            <li role="presentation"><a href="#">Historia</a></li>
+            <li role="presentation"><a href="#">Fotos</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="row" >
+        <div class="col-xs-2 fotosBiclas thumbnail">
+          <span class="cerrar">&times;</span>
+          <img src="assets/img/bici01.jpg" alt=""/>
+        </div>
+        <div class="col-xs-2 fotosBiclas thumbnail">
+          <span class="cerrar">&times;</span>
+          <img src="assets/img/bici02.jpg" alt=""/>
+        </div>
+        <div class="col-xs-2 fotosBiclas thumbnail">
+          <span class="cerrar">&times;</span>
+          <img src="assets/img/bici03.jpg" alt=""/>
+        </div>
+        <div class="col-xs-2 fotosBiclas thumbnail">
+          <span class="cerrar">&times;</span>
+          <img src="assets/img/bici04.jpg" alt=""/>
+        </div>
+        <div class="col-xs-2 fotosBiclas thumbnail">
+          <span class="cerrar">&times;</span>
+          <img src="assets/img/bici05.jpg" alt=""/>
+        </div>
+      </section>
+
+      <section id="botones">
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary" id="botonOrigen">Origen</button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary" id="botonExtincion">Extincion</button>
+          </div>
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary" id="botonRestaurarFotos">Restaurar Fotos</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="col-md-6">
+          <p id="textoOrigen">La bicicleta, coloquialmente llamada bici, también llamada con diferentes
+            apodos en América Latina, por ejemplo: cicla o ciclo  en Colombia,
+            en Cuba y Uruguay chiva, en México cleta, baika o birula.
+            Es un vehículo de transporte personal de propulsión humana,
+            es decir, es impulsada por el propio viajero; accionando con el
+            esfuerzo muscular de las piernas de la persona o usuario que la ocupa,
+            en particular esto es mediante pedales o manivelas.
+            Sus componentes básicos son dos ruedas
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p id="textoExtincion">El uso de una bicicleta puede mejorar tu salud física y emocional.
+            Ayuda al funcionamiento del sistema cardiovascular,
+            tonifica los músculos y mejora la capacidad pulmonar.
+            Reduce los niveles de colesterol en la sangre.
+            Es un excelente ejercicio aeróbico que combate los
+            riesgos de sufrir sobrepeso y obesidad.</p>
+        </div>
+      </section>
+      <footer class="container">
+        <img src="assets/img/chicasDelCoro.png" alt="">
+        <p>© Copyright chicasDelCoro 2017- Shirley Silvana Suarez Startary</p>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js" > </script>
+  </body>
+</html>
