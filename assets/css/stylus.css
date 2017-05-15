@@ -2,3 +2,25 @@
   width: 32px;
   height: 32px;
 }
+
+body{
+  background-color:rgb(190, 221, 247);
+}
+.fotos{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li{
+  background-color:rgb(51, 122, 183);
+  border-radius: 8%;
+}
+
+nav li a{
+  color: white;
+}
+
+section div p{
+  padding-top: 5%;
+  text-align: justify;
+}
